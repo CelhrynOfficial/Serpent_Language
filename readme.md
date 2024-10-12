@@ -1,6 +1,6 @@
 # Serpent: A Python-Based Language in French
 
-![alt text]((https://raw.githubusercontent.com/CelhrynOfficial/Serpent_Language/refs/heads/main/serpent.png))
+![alt text](https://raw.githubusercontent.com/CelhrynOfficial/Serpent_Language/refs/heads/main/serpent.png)
 
 **Serpent** is a programming language based on Python, designed to allow developers to write their code entirely in French. By replacing Python’s English syntax and keywords with their French equivalents, Serpent makes programming more accessible to native French speakers and offers a unique way to explore the world of coding.
 
