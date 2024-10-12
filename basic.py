@@ -19,7 +19,7 @@ class Error:
 
 class IllegalCharError(Error):
     def __init__(self, details):
-        super.__init__('Caractère non légal', details)
+        super().__init__('Caractère non légal', details)
 
 #################################
 # TOKENS
@@ -69,22 +69,22 @@ class Lexer:
                 tokens.append(self.make_number())
             elif self.current_char == '+':
                 tokens.append(Token(TT_PLUS))
-                self.advance
+                self.advance()
             elif self.current_char == '-':
                 tokens.append(Token(TT_MINUS))
-                self.advance
+                self.advance()
             elif self.current_char == '*':
                 tokens.append(Token(TT_MUL))
-                self.advance
+                self.advance()
             elif self.current_char == '/':
                 tokens.append(Token(TT_DIV))
-                self.advance
+                self.advance()
             elif self.current_char == '(':
                 tokens.append(Token(TT_LPAREN))
-                self.advance
+                self.advance()
             elif self.current_char == ')':
                 tokens.append(Token(TT_RPAREN))
-                self.advance
+                self.advance()
             else:
                 char = self.current_char
                 self.advance()
